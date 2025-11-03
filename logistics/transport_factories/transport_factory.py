@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from logistics.transport.transport_method import TransportMethod
+from transport.transport_method import TransportMethod
 
 
 class TransportFactory(ABC):
